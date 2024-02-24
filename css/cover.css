@@ -1,0 +1,70 @@
+/*
+ * Globals
+ */
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+}
+#map {
+  height: 400px;
+}
+/*
+ * Base structure
+ */
+/* Hide scrollbar for WebKit-based browsers */
+.container-fluid::-webkit-scrollbar {
+  display: none;
+}
+
+/* Optional: Add scrollbar styling for Firefox */
+.container-fluid {
+  scrollbar-width: none; /* For Firefox */
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+/*
+ * Header
+ */
+
+.nav-masthead .nav-link {
+  padding: 0.25rem 0;
+  font-weight: 700;
+
+  background-color: white;
+  border-bottom: 0.25rem solid transparent;
+}
+
+.nav-masthead .nav-link + .nav-link {
+  margin-left: 1rem;
+}
+
+.nav-masthead .active {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+.card-text {
+  color: black;
+}
+
+.cards-wrapper {
+  display: flex;
+  background-color: white;
+  max-height: fit-content;
+  border-radius: 10px;
+  /* Rounded borders */
+  border: 1px solid green;
+  /* Green border */
+}
+
+.card {
+  margin: 0 0.5em;
+  width: 100%;
+}
